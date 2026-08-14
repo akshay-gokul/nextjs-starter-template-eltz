@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SlateFunButton from "@/components/SlateFunButton";
 
 export default function Home() {
   return (
@@ -23,8 +24,10 @@ export default function Home() {
           <li>Save and see your changes instantly.</li>
         </ol>
 
+        <SlateFunButton />
+
         <div className="flex flex-col items-center gap-4 sm:flex-row">
-        
+
           <a
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
