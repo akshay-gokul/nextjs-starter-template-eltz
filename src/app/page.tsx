@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SlateFunButton from "@/components/SlateFunButton";
+import SlateFunButton from "./SlateFunButton";
 
 export default function Home() {
   return (
