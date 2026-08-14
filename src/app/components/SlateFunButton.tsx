@@ -13,7 +13,7 @@ export default function SlateFunButton() {
     setResponse(null);
 
     try {
-      const res = await fetch("/api/slatefun");
+       const res = await fetch("/slatefun");
       const text = await res.text();
 
       let pretty = text;
